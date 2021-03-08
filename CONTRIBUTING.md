@@ -1,5 +1,5 @@
-Thanks for helping us build Boulder! This page contains requirements and
-guidelines for Boulder contributions.
+Thanks for helping us build CyberEncrypt! This page contains requirements and
+guidelines for CyberEncrypt contributions.
 
 # Patch Requirements
 
