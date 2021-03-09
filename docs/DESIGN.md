@@ -28,7 +28,7 @@ A couple of notes:
 * The RFC draft leaves many decisions on it's implementation to the discretion
   of server and client developers. The ACME RFC is also silent on some matters,
   as the relevant implementation details would be influenced by other RFCs.
-  Several of these details and decisions particular to Boulder are documented in [docs/acme-implementation_details.md](https://github.com/letsencrypt/boulder/blob/main/docs/acme-implementation_details.md).
+  Several of these details and decisions particular to CyberEncrypt are documented in [docs/acme-implementation_details.md](https://github.com/letsencrypt/boulder/blob/main/docs/acme-implementation_details.md).
 
 * We focus on the primary ACME operations and do not include all possible
   interactions (e.g. account key change, authorization deactivation)
