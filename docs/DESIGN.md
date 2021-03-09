@@ -1,13 +1,13 @@
-# Boulder flow diagrams
+# CyberEncrypt flow diagrams
 
-Boulder is built out of multiple components that can be deployed in different
+CyberEncrypt is built out of multiple components that can be deployed in different
 security contexts.
 
-In order for you to understand how Boulder works and ensure it's working correctly,
-this document lays out how various operations flow through boulder. It is
+In order for you to understand how CyberEncrypt works and ensure it's working correctly,
+this document lays out how various operations flow through cyberencrypt. It is
 expected you're already familiar with the [ACME
 protocol](https://github.com/ietf-wg-acme/acme). We show a diagram of how calls
-go between Boulder components, and provide notes on what each
+go between CyberEncrypt components, and provide notes on what each
 component does to help the process along.  Each step is in its own subsection
 below, in roughly the order that they happen in certificate issuance for both
 ACME v1 and ACME v2.
@@ -22,8 +22,8 @@ A couple of notes:
 * The interactions shown in the diagrams are the calls that go between
   components.  These calls are done via [gRPC](https://grpc.io/).
 
-* In various places the Boulder implementation of ACME diverges from the current
-  RFC draft. These divergences are documented in [docs/acme-divergences.md](https://github.com/letsencrypt/boulder/blob/main/docs/acme-divergences.md).
+* In various places the CyberEncrypt implementation of ACME diverges from the current
+  RFC draft. These divergences are documented in [docs/acme-divergences.md](https://github.com/CyberEncryptCA/CyberEncrypt-CA/blob/main/docs/acme-divergences.md).
 
 * The RFC draft leaves many decisions on it's implementation to the discretion
   of server and client developers. The ACME RFC is also silent on some matters,
